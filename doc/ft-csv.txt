@@ -1097,6 +1097,9 @@ the delimiter will be stripped away from each value and also empty values won't 
 
 The result is also available in the buffer-local variable `b:csv_result`.
 
+The character for displaying the distribution of values can be changed with
+the `csv_histogram_cell` (default: "▇") variable.
+
 For the [/format/] part, see |format_number_csv|.
 
 3.32 Duplicate columns                 *:CSVDupColumn*  *DupColumn_CSV*
